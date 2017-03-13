@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Leah Brodsky</title>
+
+  <link href="https://fonts.googleapis.com/css?family=Raleway:100,900" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style type="text/css">
+    body {
+      text-align: center;
+      background: #eee;
+      font-family: 'Raleway', sans-serif;
+      font-size: 20px;
+      padding: 80px 20px;
+    }
+
+    h1 {
+      font-weight: 100;
+      font-size: 90px;
+      color: #777;
+      margin: 20px 0;
+    }
+
+    a, a:visited {
+      font-weight: 700;
+      color: #00aef0;
+      text-decoration: none;
+      color: #1695A3;
+      border-bottom: 3px solid #ACF0F2;
+      transition: all .3s ease-in-out;
+    }
+
+    a:hover {
+      color: #1695A3;
+      border-bottom-color: #1695A3;
+    }
+
+    span {
+      color: #999;
+      margin: 0px 20px;
+    }
+
+
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 50px;  
+      }
+
+      body {
+        font-size: 18px;
+      }
+    }
+
+
+    @media (max-width: 380px) {
+      h1 {
+        font-size: 40px;  
+      }
+
+      body {
+        font-size: 15px;
+      }
+
+      span {
+        font-size: 0;
+        display: block;
+        margin: 10px;
+      }
+    }
+
+  </style>
+</head>
+<body>
+    <h1>Leah Brodsky</h1>
+    <a id="e" href="mailto:"></a><span>|</span><a href="https://www.linkedin.com/in/leah-brodsky-45493342">Linkedin</a>
+</body>
+<script type="text/javascript">
+  [108,  202,  291,  416,  490,  684,  777,
+   800,  1035, 1070, 1331, 768,  1339, 1526,
+   1455, 1680, 1836, 828,  1881, 2220, 2289]
+    .map(function(v, i) { return v / (i + 1)})
+    .map(function(v) { return String.fromCharCode(v); })
+    .map(function(v) {
+      document.getElementById("e").innerText += v;
+      document.getElementById("e").href += v;
+    });
+</script>
+</html>
